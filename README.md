@@ -3,7 +3,6 @@ Emacs major mode for ABAQUS inp file.
 
 ## Features
 * Syntax highlighting
-* ...
 
 ## Syntax highlighting
 
