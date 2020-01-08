@@ -1,4 +1,4 @@
-;; a simple major mode, mymath-mode
+;; Emacs major mode for ABAQUS inp file, inp-mode
 
 (setq inp-highlights
       '(("Sin\\|Cos\\|Sum" . font-lock-function-name-face)
