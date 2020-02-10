@@ -28,4 +28,4 @@ DATA1, DATA2, DATA3, ...
 <!-- ================================================================================ -->
 ## Screenshot
 
-![Screenshot](./screenshot.png){#fig:screenshot width=90%}
+![Screenshot](./screenshot.png)
