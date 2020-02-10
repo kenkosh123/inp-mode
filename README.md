@@ -20,7 +20,7 @@ DATA1, DATA2, DATA3, ...
 
 | Line           | Face                     |
 |----------------|--------------------------|
-| `**COMMENT...` | `comment-face`           |
+| `**COMMENT...` | `font-lock-comment-face` |
 | `*KEYWORD...`  | `font-lock-keyword-face` |
 | `DATA1, ...`   | NONE                     |
 
@@ -28,4 +28,17 @@ DATA1, DATA2, DATA3, ...
 <!-- ================================================================================ -->
 ## Screenshot
 
-![Screenshot](./screenshot.png)
+![](./doc/screenshot.png)
+
+<!-- ================================================================================ -->
+<!-- ================================================================================ -->
+## Installation
+
+1. `git clone https://gitlab.com/ryunosuke_yamashita/inp-mode.git`
+2. Add following lines to your `~/.emacs`:
+
+```elisp
+(add-to-list 'load-path "/path/to/inp-mode")
+(require 'inp-mode)
+(add-to-list 'auto-mode-alist '("\\.inp\\'" . inp-mode))
+```
