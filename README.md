@@ -38,7 +38,7 @@ DATA1, DATA2, DATA3, ...
 2. Add following lines to your `~/.emacs`:
 
 ```elisp
-(add-to-list 'load-path "/path/to/inp-mode")
+(add-to-list 'load-path "/path/to/inp-mode")  ;; Modify PATH!
 (require 'inp-mode)
 (add-to-list 'auto-mode-alist '("\\.inp\\'" . inp-mode))
 ```
