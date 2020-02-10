@@ -1,9 +1,15 @@
 # inp-mode
+
 Emacs major mode for ABAQUS inp file.
 
+<!-- ================================================================================ -->
+<!-- ================================================================================ -->
 ## Features
 * Syntax highlighting
+* Comment/Uncomment function (Start with `**`)
 
+<!-- ================================================================================ -->
+<!-- ================================================================================ -->
 ## Syntax highlighting
 
 ```inp
@@ -12,12 +18,14 @@ Emacs major mode for ABAQUS inp file.
 DATA1, DATA2, DATA3, ...
 ```
 
-| Face      | Color       |
-|-----------|-------------|
-| **COMMENT | green       |
-| *KEYWORD  | bold yellow |
-| OPTION    | yellow      |
-| VALUE     | cyan        |
-| DATA      | white       |
-| Comma (,) | white       |
-| Equal (=) | white       |
+| Line           | Face                     |
+|----------------|--------------------------|
+| `**COMMENT...` | `comment-face`           |
+| `*KEYWORD...`  | `font-lock-keyword-face` |
+| `DATA1, ...`   | NONE                     |
+
+<!-- ================================================================================ -->
+<!-- ================================================================================ -->
+## Screenshot
+
+![Screenshot](./screenshot.png){#fig:screenshot width=90%}
