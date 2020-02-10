@@ -8,7 +8,7 @@ Emacs major mode for ABAQUS inp file.
 
 ```inp
 **COMMENT
-*KEYWORD, OPTION1=VALUE1, OPTION2=VALUE2, ...
+*KEYWORD, OPTION1, OPTION2=VALUE2, ...
 DATA1, DATA2, DATA3, ...
 ```
 
@@ -19,3 +19,5 @@ DATA1, DATA2, DATA3, ...
 | OPTION    | yellow      |
 | VALUE     | cyan        |
 | DATA      | white       |
+| Comma (,) | white       |
+| Equal (=) | white       |
