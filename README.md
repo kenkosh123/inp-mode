@@ -10,6 +10,30 @@ Emacs major mode for ABAQUS inp file.
 
 <!-- ================================================================================ -->
 <!-- ================================================================================ -->
+## Screenshot
+
+![](./doc/screenshot.png)
+
+<!-- ================================================================================ -->
+<!-- ================================================================================ -->
+## Installation
+
+1. Clone this repo:
+
+```sh
+git clone https://gitlab.com/ryunosuke_yamashita/inp-mode.git
+```
+
+2. Add following lines to your `~/.emacs`:
+
+```elisp
+(add-to-list 'load-path "/path/to/inp-mode")  ;; Modify PATH!
+(require 'inp-mode)
+(add-to-list 'auto-mode-alist '("\\.inp\\'" . inp-mode))
+```
+
+<!-- ================================================================================ -->
+<!-- ================================================================================ -->
 ## Syntax highlighting
 
 ```inp
@@ -22,23 +46,5 @@ DATA1, DATA2, DATA3, ...
 |----------------|--------------------------|
 | `**COMMENT...` | `font-lock-comment-face` |
 | `*KEYWORD...`  | `font-lock-keyword-face` |
-| `DATA1, ...`   | NONE                     |
+| `DATA1, ...`   | `all faces`              |
 
-<!-- ================================================================================ -->
-<!-- ================================================================================ -->
-## Screenshot
-
-![](./doc/screenshot.png)
-
-<!-- ================================================================================ -->
-<!-- ================================================================================ -->
-## Installation
-
-1. `git clone https://gitlab.com/ryunosuke_yamashita/inp-mode.git`
-2. Add following lines to your `~/.emacs`:
-
-```elisp
-(add-to-list 'load-path "/path/to/inp-mode")  ;; Modify PATH!
-(require 'inp-mode)
-(add-to-list 'auto-mode-alist '("\\.inp\\'" . inp-mode))
-```
