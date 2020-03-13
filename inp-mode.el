@@ -6,7 +6,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar inp-mode-syntax-table nil "Syntax table for inp-mode.")
 (setq inp-mode-syntax-table
-      (let ( (synTable (make-syntax-table)))
+      (let ((synTable (make-syntax-table)))
         ;; Define comment style: "**COMMENT"
         (modify-syntax-entry ?* ". 12b" synTable)
         (modify-syntax-entry ?\n "> b" synTable)
