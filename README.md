@@ -21,7 +21,7 @@ Emacs major mode for ABAQUS inp file.
 1. Clone this repo:
 
 ```sh
-git clone https://gitlab.com/ryunosuke_yamashita/inp-mode.git
+git clone https://github.com/ryunosuke-yamashita/inp-mode.git
 ```
 
 2. Add following lines to your `~/.emacs`:
